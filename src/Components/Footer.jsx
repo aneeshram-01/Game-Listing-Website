@@ -6,7 +6,7 @@ import InIcon from '../../src/assets/Images/linkedin.png';
 
 function Footer() {
   return (
-    <div className="w-full bottom-0 bg-slate-200  dark:bg-slate-700 mt-6 flex flex-col">
+    <div className="w-full  bg-slate-200  dark:bg-slate-700 mt-6 flex flex-col">
       <div className="flex justify-center p-2 text-slate-700 dark:text-slate-200">
         Copyright © 2024 Aneeshram. All rights reserved.
       </div>
