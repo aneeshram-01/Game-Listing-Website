@@ -6,10 +6,10 @@ import InIcon from '../../src/assets/Images/linkedin.png';
 
 function Footer() {
   return (
-    <footer className="w-full bg-slate-200 dark:bg-slate-700 mt-6">
-      <div className="flex flex-col items-center justify-center p-2 text-slate-700 dark:text-slate-200">
+    <div className="footer-container w-full bg-slate-200 dark:bg-slate-700 mt-6">
+      <footer className="flex flex-col items-center justify-center p-2 text-slate-700 dark:text-slate-200">
         Copyright © 2024 Aneeshram. All rights reserved.
-      </div>
+      </footer>
       <div>
         <a
           className="flex pb-2 justify-center text-slate-800 dark:text-slate-400"
@@ -50,7 +50,7 @@ function Footer() {
           <img className="w-8 h-8 rounded-full" src={GitIcon} alt="GitHub" />
         </a>
       </div>
-    </footer>
+    </div>
   );
 }
 
