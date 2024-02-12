@@ -6,7 +6,7 @@ import InIcon from '../../src/assets/Images/linkedin.png';
 
 function Footer() {
   return (
-    <div className="w-full fixed bottom-0 bg-slate-200  dark:bg-slate-700 mt-6 flex flex-col">
+    <div className="w-full absolute bottom-0 bg-slate-200  dark:bg-slate-700 mt-6 flex flex-col">
       <div className="flex justify-center p-2 text-slate-700 dark:text-slate-200">
         Copyright © 2024 Aneeshram. All rights reserved.
       </div>
@@ -16,7 +16,8 @@ function Footer() {
           href="https://react-portfolio-website-wheat-sigma.vercel.app/"
           rel="noopener noreferrer" // Added for security
           target="_blank" // Optional to open in new tab 
-          > Check out my Portfolio!
+          > 
+       Check out my Portfolio!
         </a>
      </div>
       <div className="justify-center object-cover flex  gap-4  mb-2 rounded-lg">
