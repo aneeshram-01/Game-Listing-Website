@@ -6,8 +6,8 @@ import InIcon from '../../src/assets/Images/linkedin.png';
 
 function Footer() {
   return (
-    <div className="w-full bg-slate-200 dark:bg-slate-700 mt-6 flex flex-col">
-      <div className="flex justify-center p-2 text-slate-700 dark:text-slate-200">
+    <footer className="w-full bg-slate-200 dark:bg-slate-700 mt-6">
+      <div className="flex flex-col items-center justify-center p-2 text-slate-700 dark:text-slate-200">
         Copyright © 2024 Aneeshram. All rights reserved.
       </div>
       <div>
@@ -20,7 +20,7 @@ function Footer() {
           Check out my Portfolio!
         </a>
       </div>
-      <div className="justify-center object-cover flex gap-4 mb-2 rounded-lg">
+      <div className="flex justify-center gap-4 mb-2 rounded-lg">
         <a
           href="https://x.com/aneesh_ram01?t=GmvCmz5DeGtIwL16gio12g&s=08"
           rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function Footer() {
           <img className="w-8 h-8 rounded-full" src={GitIcon} alt="GitHub" />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
 
