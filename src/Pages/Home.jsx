@@ -4,7 +4,7 @@ import GlobalApi from '../Services/GlobalApi'
 import Banner from '../Components/Banner';
 import TrendingGames from '../Components/TrendingGames';
 import GamesByGenresId from '../Components/GamesByGenresId';
-import Footer from '../Components/Footer';
+
 
 function Home() {
   const [allGameList,setAllGameList]=useState();
@@ -45,11 +45,14 @@ function Home() {
           <TrendingGames gameList={allGameList} />
           <GamesByGenresId gameList={gameListByGenres} 
           selctedGenresName={selctedGenresName} />
+          
           </div>
           :null}
+          
           </div>
-          <Footer className=''/>
+         
     </div>
+    
   )
 }
 
