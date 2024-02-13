@@ -6,20 +6,29 @@ import Home from './Pages/Home'
 import Header from './Components/Header'
 import { ThemeContext } from './Context/ThemeContext'
 
+import Footer from './Components/Footer';
+
+
 function App() {
-  const [count, setCount] = useState(0)
-  const [theme,setTheme] = useState('light')
-  useEffect(()=>{
-    setTheme(localStorage.getItem('theme')?localStorage.getItem('theme'):'dark')
-  },[])
+  const [count, setCount] = useState(0);
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    setTheme(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark');
+  }, []);
+
   return (
-    <ThemeContext.Provider value={{theme,setTheme}}>
-    <div className={`${theme} ${theme=='dark'?'bg-[#121212]':null} min-h-[100vh]`}> 
-    <Header/>
-    <Home/>
-    </div>
-    </ThemeContext.Provider>  
-  )
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <div className={`${theme} ${theme == 'dark' ? 'bg-[#121212]' : null} min-h-[100vh]`}>
+        <Header />
+        <Home />
+        
+   
+        <Footer />
+      </div>
+    </ThemeContext.Provider>
+  );
 }
+
 
 export default App
