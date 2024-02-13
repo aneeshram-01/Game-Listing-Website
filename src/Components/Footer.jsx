@@ -1,3 +1,4 @@
+// Footer.jsx
 import React from 'react';
 import XIcon from '../../src/assets/Images/twitterx.png'; 
 import GitIcon from '../../src/assets/Images/github.png';
@@ -6,22 +7,22 @@ import InIcon from '../../src/assets/Images/linkedin.png';
 
 function Footer() {
   return (
-    <div className="footer-container w-full bg-slate-200 dark:bg-slate-700 mt-6">
-      <footer className="flex flex-col items-center justify-center p-2 text-slate-700 dark:text-slate-200">
+    <div className="w-full bottom-0 bg-slate-200 dark:bg-slate-700 mt-6 flex flex-col">
+      <div className="flex justify-center p-2 text-slate-700 dark:text-slate-200">
         Copyright © 2024 Aneeshram. All rights reserved.
-      </footer>
+      </div>
       <div>
         <a
           className="flex pb-2 justify-center text-slate-800 dark:text-slate-400"
-          href="https://react-portfolio-website-wheat-sigma.vercel.app/"
+          href="https://tw-elements.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
           Check out my Portfolio!
         </a>
       </div>
-      <div className="flex justify-center gap-4 mb-2 rounded-lg">
-        <a
+      <div className="justify-center object-cover flex  gap-4  mb-2 rounded-lg">
+      <a
           href="https://x.com/aneesh_ram01?t=GmvCmz5DeGtIwL16gio12g&s=08"
           rel="noopener noreferrer"
           target="_blank"
