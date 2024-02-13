@@ -14,7 +14,7 @@ function Footer() {
       <div>
         <a
           className="flex pb-2 justify-center text-slate-800 dark:text-slate-400"
-          href="https://tw-elements.com/"
+          href="https://react-portfolio-website-wheat-sigma.vercel.app/"
           rel="noopener noreferrer"
           target="_blank"
         >
